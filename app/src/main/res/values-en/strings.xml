@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Taller</string>
+    <string name="Dije">Said</string>
+    <string name="Manillas">Handcuffs</string>
+    <string name="Titulo">title</string>
+    <string name="Tipo">kind</string>
+    <string name="Material">Material</string>
+    <string name="Ancla">Anchor</string>
+    <string name="Cuerda">Rope</string>
+    <string name="Cuero">Leather</string>
+    <string name="Martillo">Hammer</string>
+    <string name="Niquel">Nikel</string>
+    <string name="OroRosado">pink gold</string>
+    <string name="Plata">Silver</string>
+    <string name="Pago">Payment</string>
+    <string name="Resultado">Result</string>
+    <string name="Calcular">Calculate</string>
+    <string name="Borrar">Delete</string>
+    <string name="Oro">oro</string>
+    <string name="Dolar">Dollar</string>
+    <string name="Peso">Peso</string>
+</resources>

@@ -1,0 +1,40 @@
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+
+            function descragarArchivo() {
+              
+                if (window.XMLHttpRequest) {
+                    peticion_http = new XMLHttpRequest();
+alert("0")
+                } else if (window.ActiveXObject) {
+                    peticion_http = new ActiveXObject("Microsoft.XMLHTTP");
+                    alert("5")
+                }
+                peticion_http.onreadystatechange = muestraContenido;
+                peticion_http.open('GET', 'http://localhost/p.txt', true);
+                peticion_http.send(null);
+
+                function muestraContenido() {
+                    if (peticion_http.readyState == 4) {
+                        alert("1")
+                        if (peticion_http.status == 200) {
+                          
+                            alert(peticion_http.responseText);
+
+                        }
+   alert(peticion_http.status)
+                    }
+                }
+            }
+            descragarArchivo();
+        </script>
+    </head>
+    <body>
+        <div>TODO write content</div>
+    </body>
+</html>

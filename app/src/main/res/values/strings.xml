@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Taller</string>
+    <string name="Titulo">titulo</string>
+    <string name="Material">material</string>
+    <string name="Tipo">tipo</string>
+    <string name="Dije">dije</string>
+    <string name="Manillas">manillas</string>
+    <string-array name="Material">
+        <item>@string/Cuero</item>
+        <item>@string/Cuerda</item>
+    </string-array>
+    <string-array name="Tipo">
+        <item>@string/Oro</item>
+        <item>@string/OroRosado</item>
+        <item>@string/Plata</item>
+        <item>@string/Niquel</item>
+    </string-array>
+    <string-array name="Dije">
+        <item>@string/Martillo</item>
+        <item>@string/Ancla</item>
+    </string-array>
+    <string-array name="Pago1">
+        <item>@string/Peso</item>
+        <item>@string/Dolar</item>
+    </string-array>
+    <string name="Martillo">martillo</string>
+    <string name="OroRosado">Oro rosado</string>
+    <string name="Plata">plata</string>
+    <string name="Cuero">cuero</string>
+    <string name="Cuerda">cuerda</string>
+    <string name="Ancla">ancla</string>
+    <string name="Niquel">niquel</string>
+    <string name="Pago">pago</string>
+    <string name="Resultado">resultado</string>
+    <string name="Calcular">calcular</string>
+    <string name="Borrar">borrar</string>
+    <string name="Oro">oro</string>
+    <string name="Peso">peso</string>
+    <string name="Dolar">dolar</string>
+</resources>
